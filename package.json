@@ -4,11 +4,17 @@
   "description": "Simple access control list library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard --fix",
+    "test": "npm run lint && ava --verbose"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BosioGerman/acl-api.git"
+  },
+  "ava": {
+    "files": [
+      "test/**-test.js"
+    ]
   },
   "keywords": [
     "acl"
