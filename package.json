@@ -1,0 +1,25 @@
+{
+  "name": "acl-api",
+  "version": "0.0.1",
+  "description": "Simple access control list library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosioGerman/acl-api.git"
+  },
+  "keywords": [
+    "acl"
+  ],
+  "author": "German Bosio <bosiogerman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BosioGerman/acl-api/issues"
+  },
+  "homepage": "https://github.com/BosioGerman/acl-api#readme",
+  "devDependencies": {
+    "ava": "^0.24.0"
+  }
+}
